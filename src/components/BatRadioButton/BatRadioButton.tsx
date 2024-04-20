@@ -28,7 +28,7 @@ export function BatRadioButton({
       ]}
     >
       <View style={styles.radioLengthContainer}>
-        <Text style={styles.title}>Tamanho</Text>
+        <Text style={styles.title}>choose password length</Text>
         {options.map((clickedOption, index) => (
           <TouchableOpacity
             key={index}

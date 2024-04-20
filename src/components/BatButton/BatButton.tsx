@@ -29,7 +29,7 @@ export function BatButton({ passwordLength }: BatButtonProps) {
     <>
       <BatTextInput password={password} />
       <Pressable style={styles.button} onPress={handleCopyButton}>
-        <Text style={styles.text}>COPIAR</Text>
+        <Text style={styles.text}>COPY</Text>
       </Pressable>
       <Pressable style={styles.button} onPress={handleGenerateButton}>
         <Text style={styles.text}>GENERATE</Text>
